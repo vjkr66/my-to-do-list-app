@@ -1,51 +1,64 @@
-To-Do List App
-A simple yet functional To-Do List application built with React, featuring task management functionality like adding, editing, marking as completed, filtering, and deleting tasks. The app also supports persistent storage using localStorage, ensuring that your tasks are saved even after refreshing the page. The app is enhanced with a colorful and animated UI for a smooth user experience.
+# To-Do List App
 
-Features
-Add New Tasks: Add new tasks to the to-do list.
-Edit Tasks: Edit any existing task.
-Mark All as Completed: Mark all tasks as completed with a single button.
-Clear Completed Tasks: Remove all completed tasks from the list.
-Filter Tasks: Filter tasks by their status — Active, Completed, or All.
-Persistent Storage: Save tasks to localStorage so they persist across page reloads.
-Colorful UI: Vibrant and animated design for an engaging user experience.
+A simple yet functional To-Do List application built with React, featuring task management functionality like adding, editing, marking as completed, filtering, and deleting tasks. The app also supports persistent storage using `localStorage`, ensuring that your tasks are saved even after refreshing the page. The app is enhanced with a colorful and animated UI for a smooth user experience.
 
+## Features
 
-Technologies Used
-React: JavaScript library for building user interfaces.
-CSS: For styling and animations.
-localStorage: To persist tasks across page reloads.
-Installation
+- **Add New Tasks**: Add new tasks to the to-do list.
+- **Edit Tasks**: Edit any existing task.
+- **Mark All as Completed**: Mark all tasks as completed with a single button.
+- **Clear Completed Tasks**: Remove all completed tasks from the list.
+- **Filter Tasks**: Filter tasks by their status — Active, Completed, or All.
+- **Persistent Storage**: Save tasks to `localStorage` so they persist across page reloads.
+- **Colorful UI**: Vibrant and animated design for an engaging user experience.
+
+## Screenshots
+
+Here are some screenshots of the app in action:
+
+![App Screenshot](./images/screenshot1.png)
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **CSS**: For styling and animations.
+- **localStorage**: To persist tasks across page reloads.
+
+## Installation
+
 To run this app locally, follow these steps:
 
-1. Clone the repository
+### 1. Clone the repository
 
-git clone https://github.com/vjkr66/my-to-do-list-app.git
+```bash
+git clone git clone https://github.com/vjkr66/my-to-do-list-app.git
 
-2. Navigate to the project directory
+### 2. Navigate to the project directory
 
-cd my-to-do-list-app
+   cd todo-list-app
 
-3. Install the dependencies
-If you haven't already, make sure you have Node.js installed. Then run:
-npm install
+### 3. Install the dependencies
+  If you haven't already, make sure you have Node.js installed. Then run:
 
 
-4. Start the development server
+    npm install
 
-npm start
+### 4. Start the development server
+  
+  npm start
 This will run the app locally on your browser (usually on http://localhost:3000).
 
-Usage
-Add a Task: Type in the input field at the top and click the "Add Task" button to add a new task.
-Edit a Task: Click the "Edit" button next to any task, modify its text, and click "Save Changes".
-Mark All as Completed: Click the "Mark All as Completed" button to mark all tasks as done.
-Clear Completed Tasks: Click the "Clear Completed" button to remove all completed tasks from the list.
-Filter Tasks: Use the filter buttons ("All", "Active", "Completed") to view tasks by their current status.
-Delete a Task: Click the "Delete" button next to any task to remove it from the list.
-Persistent Storage: Tasks will be saved in localStorage and will persist after refreshing the page.
-Demo
-You can see a live demo of the app here: Demo Link
+
+## Usage
+-**Add a Task**-: Type in the input field at the top and click the "Add Task" button to add a new task.
+-**Edit a Task**-: Click the "Edit" button next to any task, modify its text, and click "Save Changes".
+-**Mark All asx Completedv: Click the "Mark All as Completed" button to mark all tasks as done.
+-**Clear Completed Tasks**-: Click the "Clear Completed" button to remove all completed tasks from the list.
+-**Filter Tasks**-: Use the filter buttons ("All", "Active", "Completed") to view tasks by their current status.
+-**Delete a Task**-: Click the "Delete" button next to any task to remove it from the list.
+-**Persistent Storage**-: Tasks will be saved in localStorage and will persist after refreshing the page.
+-**Demo**-
+-**you can see a live demo of the app here**-: Demo Link
 
 Project Structure
 

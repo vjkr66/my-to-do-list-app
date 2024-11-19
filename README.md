@@ -9,8 +9,6 @@ Clear Completed Tasks: Remove all completed tasks from the list.
 Filter Tasks: Filter tasks by their status — Active, Completed, or All.
 Persistent Storage: Save tasks to localStorage so they persist across page reloads.
 Colorful UI: Vibrant and animated design for an engaging user experience.
-Screenshots
-Here are some screenshots of the app in action:
 
 
 Technologies Used
@@ -21,22 +19,20 @@ Installation
 To run this app locally, follow these steps:
 
 1. Clone the repository
-bash
-Copy code
-git clone https://github.com/yourusername/todo-list-app.git
+
+git clone https://github.com/vjkr66/my-to-do-list-app.git
+
 2. Navigate to the project directory
-bash
-Copy code
-cd todo-list-app
+
+cd my-to-do-list-app
+
 3. Install the dependencies
 If you haven't already, make sure you have Node.js installed. Then run:
-
-bash
-Copy code
 npm install
+
+
 4. Start the development server
-bash
-Copy code
+
 npm start
 This will run the app locally on your browser (usually on http://localhost:3000).
 
@@ -52,9 +48,8 @@ Demo
 You can see a live demo of the app here: Demo Link
 
 Project Structure
-bash
-Copy code
-todo-list-app/
+
+my-to-do-list-app/
 ├── src/
 │   ├── App.jsx           # Main app logic
 │   ├── App.css           # Styling for the app
@@ -73,7 +68,7 @@ Create a new Pull Request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Feel free to replace "yourusername" with your GitHub username and provide a demo link if you have one. This README file should help other developers and users understand how to use and contribute to the project.
+Feel free to replace "vjkr66" with your GitHub username and provide a demo link if you have one. This README file should help other developers and users understand how to use and contribute to the project.
 
 Let me know if you'd like to add any more details!
 
